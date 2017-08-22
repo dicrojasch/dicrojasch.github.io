@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CV Diego Rojas on CV Diego Rojas</title>
-    <link>/</link>
-    <description>Recent content in CV Diego Rojas on CV Diego Rojas</description>
+    <title>Projects on CV Diego Rojas</title>
+    <link>/project/</link>
+    <description>Recent content in Projects on CV Diego Rojas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Diego Rojas</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/project/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Graphical computation</title>

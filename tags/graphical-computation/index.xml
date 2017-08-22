@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CV Diego Rojas on CV Diego Rojas</title>
-    <link>/</link>
-    <description>Recent content in CV Diego Rojas on CV Diego Rojas</description>
+    <title>Graphical Computation on CV Diego Rojas</title>
+    <link>/tags/graphical-computation/</link>
+    <description>Recent content in Graphical Computation on CV Diego Rojas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Diego Rojas</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/graphical-computation/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Graphical computation</title>
@@ -17,16 +17,6 @@
       
       <guid>/project/graphical-computation/</guid>
       <description>&lt;p&gt;This is an interdisciplinary project where there are several macros programmed in visual basic for applications, where it manages automated responses of e-mail, generation of graphic files in inventor, invoices and quotations in microsoft word and management of a database in mysql. &lt;code&gt;https://github.com/dicrojasch/ComputacionGrafica&lt;/code&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>UNApp</title>
-      <link>/project/unapp/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>/project/unapp/</guid>
-      <description>&lt;p&gt;UNApp is a web application where you can search, evaluate and comment about teachers or courses in the National University of Colombia &lt;code&gt;https://github.com/Camiloasc1/UNApp&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     
