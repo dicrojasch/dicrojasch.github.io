@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on CV Diego Rojas</title>
-    <link>/project/</link>
+    <link>https://dicrojasch.github.io/project/</link>
     <description>Recent content in Projects on CV Diego Rojas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,20 +12,20 @@
     
     <item>
       <title>Graphical computation</title>
-      <link>/project/graphical-computation/</link>
+      <link>https://dicrojasch.github.io/project/graphical-computation/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/graphical-computation/</guid>
+      <guid>https://dicrojasch.github.io/project/graphical-computation/</guid>
       <description>&lt;p&gt;This is an interdisciplinary project where there are several macros programmed in visual basic for applications, where it manages automated responses of e-mail, generation of graphic files in inventor, invoices and quotations in microsoft word and management of a database in mysql. &lt;code&gt;https://github.com/dicrojasch/ComputacionGrafica&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>UNApp</title>
-      <link>/project/unapp/</link>
+      <link>https://dicrojasch.github.io/project/unapp/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/project/unapp/</guid>
+      <guid>https://dicrojasch.github.io/project/unapp/</guid>
       <description>&lt;p&gt;UNApp is a web application where you can search, evaluate and comment about teachers or courses in the National University of Colombia &lt;code&gt;https://github.com/Camiloasc1/UNApp&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>

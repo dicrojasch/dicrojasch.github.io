@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on CV Diego Rojas</title>
-    <link>/tags/</link>
+    <link>https://dicrojasch.github.io/tags/</link>
     <description>Recent content in Tags on CV Diego Rojas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,19 +12,19 @@
     
     <item>
       <title>Graphical Computation</title>
-      <link>/tags/graphical-computation/</link>
+      <link>https://dicrojasch.github.io/tags/graphical-computation/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/graphical-computation/</guid>
+      <guid>https://dicrojasch.github.io/tags/graphical-computation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Software Engineering</title>
-      <link>/tags/software-engineering/</link>
+      <link>https://dicrojasch.github.io/tags/software-engineering/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
-      <guid>/tags/software-engineering/</guid>
+      <guid>https://dicrojasch.github.io/tags/software-engineering/</guid>
       <description></description>
     </item>
     
