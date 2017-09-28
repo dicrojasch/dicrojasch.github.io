@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CV Diego Rojas on CV Diego Rojas</title>
-    <link>https://dicrojasch.github.io/</link>
-    <description>Recent content in CV Diego Rojas on CV Diego Rojas</description>
+    <title>Rasterization on CV Diego Rojas</title>
+    <link>https://dicrojasch.github.io/tags/rasterization/</link>
+    <description>Recent content in Rasterization on CV Diego Rojas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Diego Rojas</copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2017 04:18:20 -0500</lastBuildDate>
+    <atom:link href="/tags/rasterization/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Sutherland-Hodgman Algorithm</title>
@@ -171,26 +171,6 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 &lt;p&gt;3 . The algorithm terminates generating a new polygon whose vertices represent the contact points of the collision.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/14.png&#34; alt=&#34;Image 14&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Graphical computation</title>
-      <link>https://dicrojasch.github.io/project/graphical-computation/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicrojasch.github.io/project/graphical-computation/</guid>
-      <description>&lt;p&gt;This is an interdisciplinary project where there are several macros programmed in visual basic for applications, where it manages automated responses of e-mail, generation of graphic files in inventor, invoices and quotations in microsoft word and management of a database in mysql. &lt;code&gt;https://github.com/dicrojasch/ComputacionGrafica&lt;/code&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>UNApp</title>
-      <link>https://dicrojasch.github.io/project/unapp/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://dicrojasch.github.io/project/unapp/</guid>
-      <description>&lt;p&gt;UNApp is a web application where you can search, evaluate and comment about teachers or courses in the National University of Colombia &lt;code&gt;https://github.com/Camiloasc1/UNApp&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
     

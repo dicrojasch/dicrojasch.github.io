@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.26" />
+  <meta name="author" content="Diego Rojas">
+  <meta name="description" content="Systems and Computing Engineering Student">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/highlight.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css" integrity="sha512-GGGNUPDhnG8LEAEDsjqYIQns+Gu8RBs4j5XGlxl7UfRaZBhCCm5jenJkeJL8uPuOXGqgl8/H1gjlWQDRjd3cUQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+
+  <link rel="alternate" href="https://dicrojasch.github.io/index.xml" type="application/rss+xml" title="CV Diego Rojas">
+  <link rel="feed" href="https://dicrojasch.github.io/index.xml" type="application/rss+xml" title="CV Diego Rojas">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://dicrojasch.github.io/post/sutherland-hodgman/">
+
+  
+
+  <title>Sutherland-Hodgman Algorithm | CV Diego Rojas</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">CV Diego Rojas</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Sutherland-Hodgman Algorithm</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2017-09-27 04:18:20 -0500 -05" itemprop="datePublished">
+      Wed, Sep 27, 2017
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/algorithm">algorithm</a
+    >, 
+    
+    <a href="/tags/rasterization">rasterization</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fdicrojasch.github.io%2fpost%2fsutherland-hodgman%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Sutherland-Hodgman%20Algorithm&amp;url=https%3a%2f%2fdicrojasch.github.io%2fpost%2fsutherland-hodgman%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fdicrojasch.github.io%2fpost%2fsutherland-hodgman%2f&amp;title=Sutherland-Hodgman%20Algorithm"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fdicrojasch.github.io%2fpost%2fsutherland-hodgman%2f&amp;title=Sutherland-Hodgman%20Algorithm"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Sutherland-Hodgman%20Algorithm&amp;body=https%3a%2f%2fdicrojasch.github.io%2fpost%2fsutherland-hodgman%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p>In visual computing class, we have studied visibility as rester approach, more specifically we looked up Hidden Surface Removal (HSR) algorithms, some examples of this algorithms are the Painter&rsquo;s algorithm, binary space partitioning (BSP), Warnock algorithm, among others.</p>
+
+<p>I was doing research about rasterization and I found something interesting about clipping. Clipping is a method to make or not rendering operations in some region. A rendering algorithm in clipping, only draws pixels in the intersection between the clip region and the scene model, lines and surfaces outside are removed. Clipping are used to improve render performance.</p>
+
+<p>The Sutherland Hodgman algorithm is one of the most known algorithms used in clipping. To be precise, this is one of the polygon clipping algorithms and solves problems in other subjects. For example in physics, the collision detection whose goal is to report if two objects have collided, it used the GJK Algorithm but it doesn&rsquo;t detect the contact points, in this case the Sutherland-Hodgman algorithm provides this information.</p>
+
+<p><br /></p>
+
+<h1 id="the-sutherland-hodgman-algorithm">The Sutherland Hodgman algorithm.</h1>
+
+<p><br />
+The algorithm begins by identifying a Reference and an Incident Polygon.
+<img src="http://localhost:1313/post/1.png" alt="Image 1" /></p>
+
+<p>The segments of the Reference Polygon are used as Reference Planes. In the image, there are four reference planes.</p>
+
+<p><img src="http://localhost:1313/post/2.png" alt="Image 2" /></p>
+
+<p>Then, the algorithm tests each vertex of the Incident Polygon against each reference plane.</p>
+
+<p><img src="http://localhost:1313/post/3.png" alt="Image 3" /></p>
+
+<h2 id="sutherland-hodgman-clipping-rule">Sutherland-Hodgman Clipping Rule</h2>
+
+<p>This rule require the distance between a point and a plane, but we only need the sign of the distance. If the distance between a point and a plane is positive, the point is considered to be on the Front side of the plane, otherwise is on the Back side of the plane.</p>
+
+<p>The rules are:</p>
+
+<ol>
+<li><p>If points P1 and P2 are on the front side of the plane, the algorithm saves point P2.</p></li>
+
+<li><p>If points P1 and P2 are on the back side of the plane, then none of the points are saved.</p></li>
+
+<li><p>If P1 is on the front and P2 is on the back side of the plane, then compute an intersection point with the plane. The algorithm stores the intersection point.</p></li>
+
+<li><p>If P2 is on the front and P1 is on the back side of the plane, then compute an intersection point with the plane. The algorithm stores point P2 and the intersection point.</p></li>
+</ol>
+
+<p><img src="http://localhost:1313/post/4.png" alt="Image 4" /></p>
+
+<p>The algorithm finishes with a new polygon whose vertices are the contact points of two collided polygons.</p>
+
+<p><img src="http://localhost:1313/post/5.png" alt="Image 5" /></p>
+
+<h2 id="step-by-step-algorithm">Step by step algorithm.</h2>
+
+<ol>
+<li><p>Assume two boxes are overlapped. The first step is to identify the reference and the incident polygon.</p></li>
+
+<li><p>For each reference plane, apply the Sutherland-Hodgman Clipping rule.</p></li>
+</ol>
+
+<ul>
+<li><p>2a. Starting with the left plane (image below):</p>
+
+<ul>
+<li><p>In the first instance, both points P1 and P2 are in front of the plane. Thus, P2 is saved.</p></li>
+
+<li><p>In the second instance, both points P1 and P2 are in front of the plane. Thus, P2 is saved.</p></li>
+
+<li><p>In the third instance, both points P1 and P2 are in front of the plane. Thus, P2 is saved.</p></li>
+
+<li><p>Finally, both points P1 and P2 are in front of the plane. Thus, P2 is saved.</p></li>
+</ul></li>
+</ul>
+
+<p><img src="http://localhost:1313/post/6.png" alt="Image 6" /></p>
+
+<ul>
+<li>
+
+<ul>
+<li>The algorithm uses these collected points to generate a new polygon that is used as input for the next iteration.</li>
+</ul></li>
+</ul>
+
+<p><img src="http://localhost:1313/post/7.png" alt="Image 7" /></p>
+
+<ul>
+<li><p>2b.  Using the generated polygon and the next reference plane, apply the Sutherland-Hodgman Clipping rule again.</p>
+
+<ul>
+<li><p>In the first instance, both P1 and P2 are in front of the plane. Thus, P2 is saved.</p></li>
+
+<li><p>In the second case, P1 is in front of the plane, but P2 is on the back of the plane. so an intersection point with the plane is calculated and this point is saved.</p></li>
+
+<li><p>In the third case, both P1 and P2 are on the back of the plane. Thus, none of these points are saved.</p></li>
+
+<li><p>Finally, in the fourth example, P1 is on the back of the plane and P2 is in front of the plane. An intersection point is calculated. Both P2 and the intersection point are saved.</p></li>
+</ul></li>
+</ul>
+
+<p><img src="http://localhost:1313/post/8.png" alt="Image 8" /></p>
+
+<ul>
+<li>
+
+<ul>
+<li>We get a new polygon from these new points.</li>
+</ul></li>
+</ul>
+
+<p><img src="http://localhost:1313/post/9.png" alt="Image 9" /></p>
+
+<ul>
+<li><p>2c. Using the previous polygon, repeat the Sutherland-Hodgman algorithm to the right reference plane.</p>
+
+<ul>
+<li><p>In the first instance, P1 is in front of the plane and P2 is on the back. Thus, an intersection point is calculated and saved.</p></li>
+
+<li><p>In the second instance, no points are saved because both lie on the back of the plane.</p></li>
+
+<li><p>In the third instance, P1 is on the back and P2 is in front of the plane. An intersection point is calculated and saved along with P2.</p></li>
+
+<li><p>In the fourth instance, both P1 &amp; P2 are in front of the plane. According to the rule, only P2 is saved.</p></li>
+</ul></li>
+</ul>
+
+<p><img src="http://localhost:1313/post/10.png" alt="Image 10" /></p>
+
+<ul>
+<li>
+
+<ul>
+<li>We get a new polygon.</li>
+</ul></li>
+</ul>
+
+<p><img src="http://localhost:1313/post/11.png" alt="Image 11" /></p>
+
+<ul>
+<li><p>2d. Repeat the process with the last reference plane.</p>
+
+<ul>
+<li>In every instance, the points lie in front of the plane. Thus, the four corresponding points, P2, are saved.</li>
+</ul></li>
+</ul>
+
+<p><img src="http://localhost:1313/post/12.png" alt="Image 12" /></p>
+
+<ul>
+<li>
+
+<ul>
+<li>We get the same polygon from the previous iteration.</li>
+</ul></li>
+</ul>
+
+<p><img src="http://localhost:1313/post/13.png" alt="Image 13" /></p>
+
+<p>3 . The algorithm terminates generating a new polygon whose vertices represent the contact points of the collision.</p>
+
+<p><img src="http://localhost:1313/post/14.png" alt="Image 14" /></p>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2016 Diego Rojas &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+

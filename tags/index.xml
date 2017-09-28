@@ -7,8 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Diego Rojas</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/tags/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>https://dicrojasch.github.io/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://dicrojasch.github.io/tags/academic/</guid>
+      <description>&lt;p&gt;Here is a list of all the content that has been tagged as &lt;em&gt;academic&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Algorithm</title>
+      <link>https://dicrojasch.github.io/tags/algorithm/</link>
+      <pubDate>Wed, 27 Sep 2017 04:18:20 -0500</pubDate>
+      
+      <guid>https://dicrojasch.github.io/tags/algorithm/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Graphical Computation</title>
@@ -16,6 +35,15 @@
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>https://dicrojasch.github.io/tags/graphical-computation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rasterization</title>
+      <link>https://dicrojasch.github.io/tags/rasterization/</link>
+      <pubDate>Wed, 27 Sep 2017 04:18:20 -0500</pubDate>
+      
+      <guid>https://dicrojasch.github.io/tags/rasterization/</guid>
       <description></description>
     </item>
     
