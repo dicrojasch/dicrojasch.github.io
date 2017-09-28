@@ -222,15 +222,15 @@
 
 <p><br />
 The algorithm begins by identifying a Reference and an Incident Polygon.
-<img src="http://localhost:1313/post/1.png" alt="Image 1" /></p>
+<img src="/img/Sutherland/1.png" alt="Image 1" /></p>
 
 <p>The segments of the Reference Polygon are used as Reference Planes. In the image, there are four reference planes.</p>
 
-<p><img src="http://localhost:1313/post/2.png" alt="Image 2" /></p>
+<p><img src="/img/Sutherland/2.png" alt="Image 2" /></p>
 
 <p>Then, the algorithm tests each vertex of the Incident Polygon against each reference plane.</p>
 
-<p><img src="http://localhost:1313/post/3.png" alt="Image 3" /></p>
+<p><img src="/img/Sutherland/3.png" alt="Image 3" /></p>
 
 <h2 id="sutherland-hodgman-clipping-rule">Sutherland-Hodgman Clipping Rule</h2>
 
@@ -248,11 +248,11 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 <li><p>If P2 is on the front and P1 is on the back side of the plane, then compute an intersection point with the plane. The algorithm stores point P2 and the intersection point.</p></li>
 </ol>
 
-<p><img src="http://localhost:1313/post/4.png" alt="Image 4" /></p>
+<p><img src="/img/Sutherland/4.png" alt="Image 4" /></p>
 
 <p>The algorithm finishes with a new polygon whose vertices are the contact points of two collided polygons.</p>
 
-<p><img src="http://localhost:1313/post/5.png" alt="Image 5" /></p>
+<p><img src="/img/Sutherland/5.png" alt="Image 5" /></p>
 
 <h2 id="step-by-step-algorithm">Step by step algorithm.</h2>
 
@@ -276,7 +276,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 </ul></li>
 </ul>
 
-<p><img src="http://localhost:1313/post/6.png" alt="Image 6" /></p>
+<p><img src="/img/Sutherland/6.png" alt="Image 6" /></p>
 
 <ul>
 <li>
@@ -286,7 +286,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 </ul></li>
 </ul>
 
-<p><img src="http://localhost:1313/post/7.png" alt="Image 7" /></p>
+<p><img src="/img/Sutherland/7.png" alt="Image 7" /></p>
 
 <ul>
 <li><p>2b.  Using the generated polygon and the next reference plane, apply the Sutherland-Hodgman Clipping rule again.</p>
@@ -302,7 +302,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 </ul></li>
 </ul>
 
-<p><img src="http://localhost:1313/post/8.png" alt="Image 8" /></p>
+<p><img src="/img/Sutherland/8.png" alt="Image 8" /></p>
 
 <ul>
 <li>
@@ -312,7 +312,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 </ul></li>
 </ul>
 
-<p><img src="http://localhost:1313/post/9.png" alt="Image 9" /></p>
+<p><img src="/img/Sutherland/9.png" alt="Image 9" /></p>
 
 <ul>
 <li><p>2c. Using the previous polygon, repeat the Sutherland-Hodgman algorithm to the right reference plane.</p>
@@ -328,7 +328,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 </ul></li>
 </ul>
 
-<p><img src="http://localhost:1313/post/10.png" alt="Image 10" /></p>
+<p><img src="/img/Sutherland/10.png" alt="Image 10" /></p>
 
 <ul>
 <li>
@@ -338,7 +338,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 </ul></li>
 </ul>
 
-<p><img src="http://localhost:1313/post/11.png" alt="Image 11" /></p>
+<p><img src="/img/Sutherland/11.png" alt="Image 11" /></p>
 
 <ul>
 <li><p>2d. Repeat the process with the last reference plane.</p>
@@ -348,7 +348,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 </ul></li>
 </ul>
 
-<p><img src="http://localhost:1313/post/12.png" alt="Image 12" /></p>
+<p><img src="/img/Sutherland/12.png" alt="Image 12" /></p>
 
 <ul>
 <li>
@@ -358,11 +358,11 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 </ul></li>
 </ul>
 
-<p><img src="http://localhost:1313/post/13.png" alt="Image 13" /></p>
+<p><img src="/img/Sutherland/13.png" alt="Image 13" /></p>
 
 <p>3 . The algorithm terminates generating a new polygon whose vertices represent the contact points of the collision.</p>
 
-<p><img src="http://localhost:1313/post/14.png" alt="Image 14" /></p>
+<p><img src="/img/Sutherland/14.png" alt="Image 14" /></p>
 
     </div>
   </div>

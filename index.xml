@@ -30,15 +30,15 @@
 
 &lt;p&gt;&lt;br /&gt;
 The algorithm begins by identifying a Reference and an Incident Polygon.
-&lt;img src=&#34;http://localhost:1313/post/1.png&#34; alt=&#34;Image 1&#34; /&gt;&lt;/p&gt;
+&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/1.png&#34; alt=&#34;Image 1&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The segments of the Reference Polygon are used as Reference Planes. In the image, there are four reference planes.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2.png&#34; alt=&#34;Image 2&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/2.png&#34; alt=&#34;Image 2&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Then, the algorithm tests each vertex of the Incident Polygon against each reference plane.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/3.png&#34; alt=&#34;Image 3&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/3.png&#34; alt=&#34;Image 3&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;sutherland-hodgman-clipping-rule&#34;&gt;Sutherland-Hodgman Clipping Rule&lt;/h2&gt;
 
@@ -56,11 +56,11 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 &lt;li&gt;&lt;p&gt;If P2 is on the front and P1 is on the back side of the plane, then compute an intersection point with the plane. The algorithm stores point P2 and the intersection point.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/4.png&#34; alt=&#34;Image 4&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/4.png&#34; alt=&#34;Image 4&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;The algorithm finishes with a new polygon whose vertices are the contact points of two collided polygons.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/5.png&#34; alt=&#34;Image 5&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/5.png&#34; alt=&#34;Image 5&#34; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;step-by-step-algorithm&#34;&gt;Step by step algorithm.&lt;/h2&gt;
 
@@ -84,7 +84,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/6.png&#34; alt=&#34;Image 6&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/6.png&#34; alt=&#34;Image 6&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;
@@ -94,7 +94,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/7.png&#34; alt=&#34;Image 7&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/7.png&#34; alt=&#34;Image 7&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;2b.  Using the generated polygon and the next reference plane, apply the Sutherland-Hodgman Clipping rule again.&lt;/p&gt;
@@ -110,7 +110,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/8.png&#34; alt=&#34;Image 8&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/8.png&#34; alt=&#34;Image 8&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;
@@ -120,7 +120,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/9.png&#34; alt=&#34;Image 9&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/9.png&#34; alt=&#34;Image 9&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;2c. Using the previous polygon, repeat the Sutherland-Hodgman algorithm to the right reference plane.&lt;/p&gt;
@@ -136,7 +136,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/10.png&#34; alt=&#34;Image 10&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/10.png&#34; alt=&#34;Image 10&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;
@@ -146,7 +146,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/11.png&#34; alt=&#34;Image 11&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/11.png&#34; alt=&#34;Image 11&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;p&gt;2d. Repeat the process with the last reference plane.&lt;/p&gt;
@@ -156,7 +156,7 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/12.png&#34; alt=&#34;Image 12&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/12.png&#34; alt=&#34;Image 12&#34; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;
@@ -166,11 +166,11 @@ The algorithm begins by identifying a Reference and an Incident Polygon.
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/13.png&#34; alt=&#34;Image 13&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/13.png&#34; alt=&#34;Image 13&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;3 . The algorithm terminates generating a new polygon whose vertices represent the contact points of the collision.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/14.png&#34; alt=&#34;Image 14&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://dicrojasch.github.io/img/Sutherland/14.png&#34; alt=&#34;Image 14&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
